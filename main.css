@@ -76,6 +76,11 @@ body {
   #foot #icon{
     display: none;
   }
+  .mood img
+{
+  height:230px !important;
+  width:400px !important;
+}
   #mid .icon{
     font-size: 25px !important;
     bottom: 40px !important;
@@ -161,11 +166,6 @@ body {
     font-size: 25px !important;
     bottom: 40px !important;
   }
-.mood img
-{
-  height:230px !important;
-  width:400px !important;
-}
 
 /*.mood img{
   width:95% !important;
