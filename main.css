@@ -161,7 +161,18 @@ body {
     font-size: 25px !important;
     bottom: 40px !important;
   }
-
+  .mood{
+  width:100vw !important;
+  height:100px !important;
+  padding-left:5px !important;
+  padding-right:5px !important;
+}
+.mood img{
+  width:95% !important;
+}
+.mood img:hover{
+  width:100% !important;
+}
 #mid #random{
   display: none;
 }
@@ -177,6 +188,7 @@ body {
 #mid #repeat{
   margin-left: 65vw !important;
 }
+
 }
  /*search bar*/
 .topnav .search-container {
@@ -214,11 +226,15 @@ input:focus{
 }
 
 /*main site*/
+#main1
+{
+}
 #leftmain{
   width:70%;
   height:auto;
   background-color: pink;
   float:left;
+  padding-bottom:90px;
 }
 #rightmain{
   width:30%;
@@ -236,7 +252,12 @@ input:focus{
 }
 
 /*artists begins*/
-
+.artists
+{
+  border:1px solid white;
+  text-align:center;
+  /*temp*/
+}
 .artists img
 {
   height:90px;
@@ -258,10 +279,8 @@ input:focus{
 }
  .artist-name
 {
-  margin-left:28px;
-  margin-bottom:60px;
+  margin-bottom:10px;
   position:relative;
-  align-items:center;
   color:white;
 }
 .artists img:hover
@@ -282,6 +301,9 @@ input:focus{
   flex-wrap: nowrap;
   margin-left: 20px;
   overflow: auto;
+}
+.stations {
+  border:1px solid white;
 }
 .stations img
 {
@@ -309,21 +331,26 @@ input:focus{
 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-left: 20px;
+  overflow: auto;
 }
 .mood img
 {
-  width:200px;
-  height:116px;
-  margin:10px 15px 0px 7px;
-  border-radius: 8px;
+  width:80%;
+  height:100%;
 }
 .mood img:hover{
-  width:210px;
-  height:120px;
+  width:90%;
+  height:100%;
   transition:all .45s;
   z-index:999;
+}
+.mood{
+  width:250px;
+  border:1px solid white;
+  padding-left: 10px;
+  text-align:center;
 }
 /*moods ends here*/
 /*queue starts*/
