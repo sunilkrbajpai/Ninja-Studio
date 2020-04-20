@@ -80,7 +80,7 @@ body {
   .mood img
 {
   height:215px !important;
-  width:350px !important;
+  width:300px !important;
 }
   #mid .icon{
     font-size: 25px !important;
@@ -379,14 +379,14 @@ input:focus{
 .container
 {
     position: relative;
-    width: 98%;
+    width: 90%;
     height:60px;
     padding:8px;
     
 }
 .container:hover
 {
-  border:1px solid white;
+  /*border:1px solid white;*/
   background-color:#3c4039;
   opacity: 80%;
 }
