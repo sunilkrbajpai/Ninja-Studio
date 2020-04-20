@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #0c1027;
 }
 /*navigation bar*/
 .topnav {
@@ -232,14 +233,14 @@ input:focus{
 #leftmain{
   width:70%;
   height:auto;
-  background-color: pink;
+  background-color: #0c1027;
   float:left;
   padding-bottom:90px;
 }
 #rightmain{
   width:30%;
   height:auto;
-  background-color: green;
+  background-color: #0c1027;
   float:left;
 }
 #leftmain h1
@@ -254,7 +255,7 @@ input:focus{
 /*artists begins*/
 .artists
 {
-  border:1px solid white;
+  /*border:1px solid white;*/
   text-align:center;
   /*temp*/
 }
@@ -303,7 +304,7 @@ input:focus{
   overflow: auto;
 }
 .stations {
-  border:1px solid white;
+  /*border:1px solid white;*/
 }
 .stations img
 {
@@ -355,7 +356,7 @@ input:focus{
   text-align:center;
   */
 
-  border:1px solid white;
+  /*border:1px solid white;*/
   text-align:center;
   /*temp*/
 }
