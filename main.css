@@ -135,6 +135,9 @@ body {
 #leftmain{
   width:100% !important;
 }
+#playlist{
+  display: block !important;
+}
 }
 @media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
@@ -562,4 +565,18 @@ color:#808080;
 #footer{
   position: fixed;
   bottom:2px;
+}
+#playlist{
+  margin-right: 20px;
+  color:white;
+  display: none;
+  float: right;
+}
+a
+{
+  text-decoration:none;
+}
+#playlist:hover{
+  text-decoration: underline;
+  color:white;
 }
