@@ -165,8 +165,11 @@ body {
   .profile{
   	display: none;
   }
+  .count-1{
+    display: none !important;
+  }
   .count-2{
-    margin-left: 25vw !important;
+    display: none !important;
   }
   #foot #icon{
     display: none !important;
