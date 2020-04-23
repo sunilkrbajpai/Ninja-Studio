@@ -181,26 +181,26 @@ body {
 #img1
 {
   height:150px !important;
-  width:200px !important;
+  width:150px !important;
   /*position: absolute;*/
 }
 #img2
 {
-  left: 240px !important;
+  left: 195px !important;
   height:190px;
-  width:240px;
+  width:180px;
   opacity: 0.96;
 }
 #img2:hover{ 
   height:200px;
-  width:245px;
+  width:185px;
   transition: all .45s;
   opacity: 1 !important;
 }
 #img3
 {
   height:150px !important;
-  width:200px !important;
+  width:150px !important;
   margin-left: 18% !important;
 }
 /*  #mid .icon{
