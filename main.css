@@ -193,12 +193,12 @@ html
 {
   left: 170px !important;
   height:190px;
-  width:190px;
+  width:205px;
   opacity: 0.96;
 }
 #img2:hover{ 
   height:195px;
-  width:195px;
+  width:210px;
   transition: all .45s;
   opacity: 1 !important;
 }
@@ -206,29 +206,8 @@ html
 {
   height:150px !important;
   width:150px !important;
-  margin-left: 4% !important;
+  margin-left: 5% !important;
 }
-/*  #mid .icon{
-    font-size: 25px !important;
-    bottom: 40px !important;
-  }
-
-#mid #random{
-  display: none;
-}
-#mid #back{
-  margin-left: 40vw !important;
-}
-#mid #pause{
-  margin-left: 47vw !important;
-}
-#mid #forward{
-  margin-left: 54vw !important;
-}
-#mid #repeat{
-  margin-left: 65vw !important;
-}
-*/
 }
  /*search bar*/
 .topnav .search-container {
@@ -317,6 +296,7 @@ input:focus{
   opacity: 0.9;
 
 }
+/*layte4st release*/
 
 /*artists begins*/
 .artists
@@ -370,6 +350,10 @@ input:focus{
   flex-wrap: nowrap;
   margin-left: 20px;
   overflow: auto;
+}
+#latest #radio-channels img
+{
+  border-radius: 0px !important;
 }
 .stations {
   /*border:1px solid white;*/
