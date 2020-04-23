@@ -188,12 +188,12 @@ body {
 {
   left: 170px !important;
   height:190px;
-  width:180px;
+  width:190px;
   opacity: 0.96;
 }
 #img2:hover{ 
-  height:200px;
-  width:185px;
+  height:195px;
+  width:195px;
   transition: all .45s;
   opacity: 1 !important;
 }
@@ -201,7 +201,7 @@ body {
 {
   height:150px !important;
   width:150px !important;
-  margin-left: 3.5% !important;
+  margin-left: 4% !important;
 }
 /*  #mid .icon{
     font-size: 25px !important;
