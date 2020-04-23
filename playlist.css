@@ -214,7 +214,7 @@ input:focus{
   background-color: #0c1027;
   float:left;
   padding-bottom:90px;
-  border:1px solid white;
+  /*border:1px solid white;*/
   padding-top:30px;
 }
 #rightmain{
@@ -231,6 +231,46 @@ input:focus{
   margin-left:25px;
   margin-top:15px;
 }
+/*latest release*/
+#release{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 95%;
+  /*background-color: #1a1e33;*/
+  height:100px;
+  /*border:1px solid white;*/
+}
+#left-rel
+{
+  width:100%;
+  float:left;
+  display: inline;
+}
+#left-rel i
+{
+  float:right;
+  margin-right: 15px;
+  color:lightgrey;
+  font-size: 20px;
+}
+#left-rel h4
+{
+  position: absolute;
+  cursor: pointer;
+  margin-left:9%;
+  margin-top: -80px;
+  color:lightgrey;
+  font-size: 20px;
+}
+#left-rel h6
+{
+  position: absolute;
+  margin-left:9%;
+  margin-top: -40px;
+  color:grey;
+  font-size: 12px;
+}
+
 
 /*queue starts*/
 .queue
@@ -240,10 +280,11 @@ input:focus{
 .queue h1
 {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 1.8px;
   color:white;
   margin-left: 15px;
+  margin-top: 30px;
 }
 .container
 {
@@ -251,7 +292,7 @@ input:focus{
     width: 90%;
     height:60px;
     padding:9px;
-    border:1px solid red;
+    /*border:1px solid red;*/
     margin-left: 3%;
     
 }
@@ -259,7 +300,7 @@ input:focus{
 {
   border:3px solid #0c1027;
   background-color: #1a1e33;
-	border: 1px solid white !important;
+	/*border: 1px solid white !important;*/
 
 }
 #slide .container
@@ -269,12 +310,13 @@ input:focus{
 	padding: 0px;
 	padding-right: 18px;
 	color:white;
+  background-color: #141b41;
 }
 #slide .container #img
 {
 	width:30%;
 	height:100%;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	float: left;
 }
 #slide .container h1
@@ -289,6 +331,16 @@ input:focus{
 	top:60px;
 	color: #808080;
 	left:35%;
+}
+#slide .container input
+{
+  font-size: 1.5rem;
+  position: absolute;
+  left:35%;
+top:130px;
+padding: 5px 20px;
+background-color: #f7b7f3;
+
 }
 .container:hover
 {

@@ -154,6 +154,10 @@ html
 #playlist{
   display: block !important;
 }
+#release, #latest-rel-h1
+{
+  display: none !important;
+}
 }
 
 /*for mobile*/
@@ -297,7 +301,45 @@ input:focus{
 
 }
 /*layte4st release*/
-
+#release{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 90%;
+  height:100px;
+  /*border:1px solid white;*/
+}
+#left-rel
+{
+  width:50%;
+  float:left;
+  display: inline;
+}
+#left-rel i
+{
+  float:right;
+  margin-right: 15px;
+  color:lightgrey;
+  font-size: 20px;
+}
+#left-rel h4
+{
+  position: absolute;
+  margin-left:9%;
+  margin-top: -80px;
+  color:lightgrey;
+  font-size: 20px;
+}
+#left-rel h6
+{
+  position: absolute;
+  margin-left:9%;
+  margin-top: -40px;
+  color:grey;
+  font-size: 12px;
+}
+#slide{
+  margin-left: 20px;
+}
 /*artists begins*/
 .artists
 {
@@ -426,6 +468,22 @@ input:focus{
   letter-spacing: 1.8px;
   color:white;
   margin-left: 10px;
+}
+.queue h1:hover
+{
+  text-decoration:underline;
+}
+.queue #see-all
+{
+  position:absolute;
+  color:white;
+  right:25px;
+  top:100px;
+  /*float: right;*/
+}
+.queue #see-all:hover
+{
+  text-decoration:underline;
 }
 .container
 {
