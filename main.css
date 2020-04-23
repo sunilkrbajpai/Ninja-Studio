@@ -178,6 +178,31 @@ body {
   {
     display: none !important;
   }
+#img1
+{
+  height:150px !important;
+  width:200px !important;
+  /*position: absolute;*/
+}
+#img2
+{
+  left: 240px !important;
+  height:190px;
+  width:240px;
+  opacity: 0.96;
+}
+#img2:hover{ 
+  height:200px;
+  width:245px;
+  transition: all .45s;
+  opacity: 1 !important;
+}
+#img3
+{
+  height:150px !important;
+  width:200px !important;
+  margin-left: 18% !important;
+}
 /*  #mid .icon{
     font-size: 25px !important;
     bottom: 40px !important;
@@ -259,6 +284,33 @@ input:focus{
   display: block;
   margin-left:25px;
   margin-top:15px;
+}
+#img1
+{
+  margin-top: 30px;
+  margin-left: 5px;
+  z-index: 1;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  /*position: absolute;*/
+}
+#img2
+{
+  margin-top: 10px;
+  margin-left: -100px;
+  z-index: 3;
+  position: absolute;
+}
+
+#img3
+{
+  margin-top: 30px;
+  margin-left: 15%;
+  z-index: 1;
+  margin-bottom: 30px;
+  position: absolute;
+  opacity: 0.9;
+
 }
 
 /*artists begins*/
