@@ -77,6 +77,7 @@ html
 /*for tablet view*/
 @media screen and (max-width: 850px) {
   .topnav a {display: none;}
+  #link{display: block;}
   .topnav a.icon 
   {
     float: right;
