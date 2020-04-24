@@ -298,7 +298,12 @@ top:140px;
 border: none;
 padding: 5px 20px;
 background-color: #f7b7f3;
-
+}
+#slide .container input:hover
+{
+  transform: scale(1.2,1.1);
+  transition: all .5s;
+  cursor: pointer;
 }
 .container:hover
 {
@@ -329,7 +334,7 @@ background-color: #f7b7f3;
   margin-top:0px;
 }
 .heart{  color:lightgrey;}
-.heart:hover{  color: red;}
+.heart:hover{  color: red; transform: scale(1.2);transition: all .5s;cursor: pointer;}
 .plus{  color:lightgrey;}
 .plus:hover{  color:grey;}
 
@@ -381,6 +386,8 @@ background-color: #f7b7f3;
 }
 #foot #icon:hover{
 color:red;
+transition: all .5s;
+transform: scale(1.1,1.1);
 }
 #name2{
   margin-left: 10px;
@@ -488,11 +495,12 @@ color:#808080;
   margin-left: 3vw;
 }
 #right #vol{
-  margin-left: 0px;
-  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: lightgrey;
 }
 #right #expand{
-  padding: 17px;
+  padding: 15px;
 }
 /*playlist*/
 #playlist{
