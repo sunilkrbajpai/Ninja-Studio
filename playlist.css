@@ -338,6 +338,7 @@ input:focus{
   position: absolute;
   left:35%;
 top:140px;
+border: none;
 padding: 5px 20px;
 background-color: #f7b7f3;
 
