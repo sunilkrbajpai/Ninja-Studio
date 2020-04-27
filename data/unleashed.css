@@ -62,21 +62,6 @@ section .album-info:after {
   height: 0;
   clear: both;
 }
-section .album-art {
-  float: left;
-  width: 220px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-section .album-art * {
-  border-radius: 3px;
-}
-section .album-art img {
-  width: 100%;
-  margin-bottom: 10px;
-  margin-top: -80px;
-  box-shadow: 0 5px 60px -3px rgba(0, 0, 0, 0.18);
-}
 section .play {
   display: -webkit-box;
   display: flex;
@@ -93,79 +78,18 @@ section .play {
   -webkit-box-flex: 1;
           flex: 1 0 50%;
 }
-section .bookmark {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: initial;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: initial;
-  width: 48px;
-  height: 48px;
-  border: 3px solid var(--color-light);
-  margin-left: 10px;
-}
-section .album-details > * {
-  padding: 10px 0;
-}
-section h2 {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: initial;
-  -webkit-box-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: initial;
-  color: var(--dark);
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-section h2 img {
-  width: 24px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-section h1 {
-  font-size: 50px;
-  font-weight: 300;
-  word-wrap: break-word;
-}
-section h1 + span {
-  color: var(--dark);
-}
-section h1 + span span:first-child {
-  padding-right: 20px;
-}
-section p {
-  margin-top: 15px;
+section a {
+  text-decoration:none;
 }
 section .album-tracks {
   background: #f8f8f8;
   border: 1px solid #efefef;
   margin-top: 20px;
+  color:yellow;
 }
 @media (max-width: 800px) {
   section {
     margin: 100px 36px 36px 36px;
-  }
-}
-@media (max-width: 700px) {
-  section .album-art {
-    width: 100%;
-  }
-  section .album-art img {
-    width: auto;
-    max-width: 100%;
-    margin: -100px auto 10px auto;
-    display: block;
-  }
-  section .album-details {
-    float: left;
-    max-width: 100%;
   }
 }
 @media (max-width: 550px) {
@@ -173,61 +97,4 @@ section .album-tracks {
     margin: 100px 20px 20px 20px;
     padding: 20px 16px;
   }
-  section ol {
-    padding: 16px;
-  }
-}
-
-ol {
-  list-style-type: none;
-  padding: 20px 36px;
-  font-weight: 500;
-}
-ol li {
-  counter-increment: number;
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: initial;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-          align-items: center;
-  align-content: initial;
-  height: 45px;
-  color: var(--dark);
-}
-ol li span:not(:last-child) {
-  margin-right: 2em;
-}
-@media (max-width: 700px) {
-  ol li span:not(:last-child) {
-    margin-right: 1em;
-  }
-}
-ol li span:first-child {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  color: var(--darker);
-}
-ol li span:first-child:before {
-  content: counter(number);
-  margin-right: 2em;
-  color: var(--dark);
-  display: inline-block;
-  text-align: end;
-  width: 20px;
-}
-
-.actions {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: initial;
-  -webkit-box-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: initial;
-          align-items: initial;
-  align-content: initial;
-  -webkit-box-flex: 1;
-          flex: 1 1 100%;
 }

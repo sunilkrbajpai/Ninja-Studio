@@ -73,6 +73,9 @@ html
   float:right;
   color:white;
 }
+#notification:hover{
+  color:grey;
+}
 
 /*for tablet view*/
 @media screen and (max-width: 850px) {
@@ -218,6 +221,9 @@ input:focus{
   margin-right: 15px;
   color:lightgrey;
   font-size: 20px;
+}
+#left-rel i:hover{
+  color:grey;
 }
 #left-rel h4
 {
