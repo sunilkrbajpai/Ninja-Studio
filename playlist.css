@@ -25,7 +25,7 @@ html
 /*logo icon*/
 .logo{
   float: left;
-  color: orange;
+  color: #cc83c1;
   text-align: center;
   text-decoration: none;
   font-size: 40px;	
@@ -38,7 +38,7 @@ html
 .topnav span{
 	float: left;
   display: block;
-  color: orange;
+  color: #e39ad8;
   text-align: center;
   padding: 14px 16px;
   padding-left: 5px;
@@ -67,7 +67,7 @@ html
 
 .topnav .icon {
   display: none;
-  color: orange;
+  color: #ffe793;
 }
 #notification{
   float:right;
