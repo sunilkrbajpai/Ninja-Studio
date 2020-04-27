@@ -525,6 +525,7 @@ input:focus{
    text-align: left;
    font-size: 0.8rem;
    border: 1px solid #282828;
+   z-index:999;
 }
 #footer #left{width:30%;float:left;}
 #footer #mid{width:40%;float: left;height: 70px;}
